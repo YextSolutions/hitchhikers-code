@@ -1,7 +1,7 @@
 ---
-name: Fix CTAs to Bottom of Card
-description: How to ensure the CTAs appear at the bottom of the product-prominentimage card.
-keywords: Product-ProminentImage, HBS, CSS
+name: Add a Conditional CTA Based on Boolean
+description: Walkthrough of the card updates needed to add a conditional CTA.
+keywords: Boolean, HBS, Accepting New Patients
 ---
 Hi Sarah,
 
