@@ -1,7 +1,7 @@
 ---
-name: "Format Boolean Value to Display on Card"
-description: "Display text based off the value of the boolean."
-keywords: "Boolean", "JS", "Accepting New Patients, Custom Formatters"
+name: Format Boolean Value to Display on Card
+description: Display text based off the value of the boolean.
+keywords: Boolean, JS, Accepting New Patients, Custom Formatters
 ---
 Hey @Sarah_Dougherty! Really cool use-case here that you're setting up for your brand's experience. In order to "transform" the boolean field, I recommend using custom (yet simple) JS formatter in your **formatters.js** file. In order to add this formatter, you'll want to go to **Jambo Commands** -> **Override Theme** -> **static > js > formatters.js**.
 
