@@ -1,3 +1,9 @@
+---
+name: Adding Email to Cards
+description: Walkthrough of the card updates needed to add an email.
+keywords: Email, HBS, Custom Card
+---
+
 Hi Jessie,
 
 Great question! In order to do this the right way, we'll need to do three things:
