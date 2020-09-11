@@ -1,3 +1,8 @@
+---
+name: "Add a Conditional CTA Based on Boolean"
+description: "Walkthrough of the card updates needed to add a conditional CTA."
+keywords: "Boolean", "HBS", "Accepting New Patients"
+---
 Hi Sarah,
 
 What a clever idea! You can easily do this by adding a boolean to your component.js file, and modifying the handlebars template to *only* show the third CTA if that boolean evaluates to true.
