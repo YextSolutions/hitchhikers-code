@@ -68,6 +68,6 @@ Lastly, for **Step 3**, I'll add a bit of CSS to make the email address appear a
     }
 ```
 The end result will look like the below:
-![image|690x176](upload://aUgGw8k9Nf8HKvajteZRYswrOnl.png)  
+![image|690x176](https://aws1.discourse-cdn.com/turtlehead/original/2X/4/4c72126b499dfa991358928dae9798f8bb0f7497.png)  
 
 Let me know if this helps!
