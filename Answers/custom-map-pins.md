@@ -13,7 +13,7 @@ Often times, we'll feature multiple types of locations on a single vertical - fo
 3. Legend to Define Mappings
 
 ## Adding the Custom Map Pins
-For this, we'll need to override the theme. Override your `templates > vertical-map > map-pin.hbs` file and replace it with the below contents.
+For this, we'll need to override the theme. Override your `templates > universal-standard > script > map-pin.hbs` and `templates > vertical-map > script > map-pin.hbs` files and replace them with the below contents.
 
 This checks for the Entity Type of the entity, but you can base this logic after any field. Make sure to replace the [[REPLACE_ME]] values with the desired font and background color for the map pins.
 
