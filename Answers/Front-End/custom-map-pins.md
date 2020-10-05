@@ -1,7 +1,6 @@
 ---
 name: Adding Custom Map Pins & Ordinals to Indicate Different Location Types
 keywords: Custom Partials, Map Pins, Mapbox
-dateAdded: 09/28/2020
 dateUpdated: 09/28/2020
 ---
 
