@@ -3,8 +3,11 @@ name: Add a Conditional CTA Based on Boolean
 description: Walkthrough of the card updates needed to add a conditional CTA.
 keywords: Boolean, HBS, Accepting New Patients
 ---
+You may only want the “Book Appointment” CTA to show up on provider cards when that provider is accepting new patients which is a field populated in the KG. ie. If acceptingNewPatients=true --> display tertiary CTA.
 
-What a clever idea! You can easily do this by adding a boolean to your component.js file, and modifying the handlebars template to *only* show the third CTA if that boolean evaluates to true.
+This could bypass adding/removing information from the KG as doctors’ statuses change, so all you would have to do to would be toggle “Accepting New Patients” for the CTA to surface in Answers.
+
+You can easily do this by adding a boolean to your component.js file, and modifying the handlebars template to *only* show the third CTA if that boolean evaluates to true.
 
 **component.js**
 The first step is to pass the information about whether a provider is accepting patients. Add an attribute in your component.js file to store whether or not a provider is accepting new patients. If you use the profile field, when this is marked as 'Yes', the boolean will evaluate to `true`; if it's marked as false *or* unpopulated, it will evaluate to `false`.
