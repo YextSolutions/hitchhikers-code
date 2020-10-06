@@ -1,6 +1,6 @@
 ---
 name: Setting up Linked Entity Fields in Search
-description: Best practices for setting up linked entitieies to appear in search
+description: Best practices for setting up linked entities to appear in search
 keywords: linked entitity, custom field, subfield
 dateUpdated: 10/6/2020
 ---
