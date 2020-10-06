@@ -42,7 +42,7 @@ In order to accomplish this, you need to do a few things in the frontend:
 
 Finally for **Step 3** you can add any custom CSS to the answers.scss file. To emphasise the 'click-ability' of the card we suggest adding a hover state to look something like this:
 
-![image|811×724] (https://aws1.discourse-cdn.com/turtlehead/original/2X/c/c86cea63e8f81c97ca7bb588839794095908d560.png)
+![image|811×724](https://aws1.discourse-cdn.com/turtlehead/original/2X/c/c86cea63e8f81c97ca7bb588839794095908d560.png)
 
 *Note: You can’t have links nested within other links, so make sure to remove your CTAs and the title link from the card if you’re using this approach.*
 
