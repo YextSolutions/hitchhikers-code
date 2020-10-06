@@ -1,0 +1,35 @@
+---
+name: Changing Color of Yext Logo in the Footer
+description: Changing the color of the default black logo in the footer
+keywords: color, footer, logo
+---
+
+There are two ways that you can edit the color of the Yext logo in the answers footer: CSS or using a custom image.
+![image|690x169](upload://d2AY2TC5RQfHYiLz0xwE3iwhEw0.png) 
+
+**CSS**
+
+You can apply CSS in the 'answers.scss' file to change the color of images. In this case, you can use an invert filter to change the logo to white. Note this inversion works since you are changing the image color from black to white.
+
+```CSS
+.Answers-footerLogo {
+    filter: invert(100%);
+}
+```
+
+**Using Custom Images**
+
+You can use this if you want to change the logo to a color other than white as well.
+
+1. Save new logo to `static > assets > images`
+![image|596x500](upload://beO2mcp01p0WhH0BpPWZhXnxLId.png) 
+
+2. Override theme for yext-logo.hbs `tools > jambo commands > override theme > yext-logo.hbs` and edit img src to include your new image
+![image|410x162](upload://9785yTj0xZ5kQO9eo8a1NYmMPhm.png) 
+
+3. You may need to edit the css to get the appropriate sizing. You must reference `.Answers-footerLink` outside of the `.Answers` object
+![image|293x163](upload://fghAVYDpJ7oJttmsW6c6Du2xrvL.png)
+
+Your end result in both cases will look something like this:
+![image|672x119](upload://uLcrG9R1ZMcewqAHopOUD60tU4a.png) 
+
