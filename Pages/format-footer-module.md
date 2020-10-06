@@ -2,6 +2,7 @@
 name: Formatting the Footer Module
 description: Example of footer CSS
 keywords: Page Builder, Flex
+dateUpdated: 10/5/2020
 ---
 
 Hi Ella!
@@ -63,6 +64,3 @@ We'll take a similar approach to stack the footer links on top of one another, u
 ![image|690x108](https://aws1.discourse-cdn.com/turtlehead/original/2X/1/1f446b4f825c14ce7551aad3e99e3f411ed75b20.png) 
 
 We'd also recommend ensuring you test across browsers for changes like these - you may want to tweak the mobile behavior further as well.
-
-Let me know if you have any questions!
-Alyssa

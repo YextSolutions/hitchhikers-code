@@ -2,6 +2,8 @@
 name: CTA Underline Hover Color not updating
 description: Update the underline color of a CTA.
 keywords: CTA, hover, color
+dateUpdated: 10/5/2020
+
 ---
 
 You would do so with the property of text-decoration-color

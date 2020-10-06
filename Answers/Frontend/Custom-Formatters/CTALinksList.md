@@ -2,6 +2,8 @@
 name: Formatter for Adding a Bulleted List of Call to Action Links
 description: To add a list of links from a custom field made up of a list of Call to Actions (for example, a list of ways to contact someone on a Professional card), you’ll need to use a formatter to extract an array of items from the list of Call to Actions.
 keywords: Call to Action, Bulleted List, List of Links, Custom Formatters
+dateUpdated: 10/5/2020
+
 ---
 1. Add the below function to your static/js/formatters.js file
 static listCTA(list) {

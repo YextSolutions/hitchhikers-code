@@ -1,7 +1,8 @@
 ---
-name: Query rules context
+name: Query Rules - Referrer URL Example
 description: Usng Query Rules to Filter Results that only pertain to specific locations.
-keywords: Query rules, locations, filter
+keywords: Query rules, locations, filter, Referrer Page URL
+dateUpdated: 10/5/2020
 ---
 
 **Overview:** To filter results to only those that pertain to the online location (ie. website) a user originates from, Query Rules detects the URL a user searched from, maps it to a value of the custom field “Query Rules Location”, and filters the result set to only the entities that have that value populated in the custom field.

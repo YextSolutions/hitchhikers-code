@@ -2,6 +2,8 @@
 name: Wrap CTA
 description: Wrap a long CTA for a specific vertical.
 keywords: CTA, Wrap, vertical
+dateUpdated: 10/5/2020
+
 ---
 
 There are situations where you might want to wrap CTAs for a specific vertical if they are particularly long. This could be both from UI perspective but also to create cleaner experiences on mobile.
@@ -10,10 +12,11 @@ The below code is for the FAQ card type.
 
 ```css
 .HitchhikerFaqAccordion {
+    
     .HitchhikerCTA-iconLabel
     {
-    white-space: normal;
-    text-align: left
+        white-space: normal;
+        text-align: left
     }
 }
 ```

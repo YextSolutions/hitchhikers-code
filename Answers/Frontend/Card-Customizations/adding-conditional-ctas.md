@@ -2,6 +2,8 @@
 name: Add a Conditional CTA Based on Boolean
 description: Walkthrough of the card updates needed to add a conditional CTA.
 keywords: Boolean, HBS, Accepting New Patients
+dateUpdated: 10/5/2020
+
 ---
 You may only want the “Book Appointment” CTA to show up on provider cards when that provider is accepting new patients which is a field populated in the KG. ie. If acceptingNewPatients=true --> display tertiary CTA.
 

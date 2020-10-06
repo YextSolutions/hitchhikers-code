@@ -2,6 +2,8 @@
 name: Link behavior
 description: Changing link target Behavior for a specific entity.
 keywords: Link, top, blank
+dateUpdated: 10/5/2020
+
 ---
 
 This is a solution for how to create differnet link behaviors for entities within a vertical. In other words, you may want CTAs links to behave differently across an entity type. This requires an innovative solution, as link behavior is set at the card level.

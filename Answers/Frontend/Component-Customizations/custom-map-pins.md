@@ -3,7 +3,6 @@ name: Adding Custom Map Pins & Ordinals to Indicate Different Location Types
 description: 
 keywords: Custom Partials, Map Pins, Mapbox
 thumbnailImageURL: https://github.com/amanifarooque/hitchhikers-code/blob/master/Images/Custom-Map-Pins.png
-dateAdded: 09/28/2020
 dateUpdated: 09/28/2020
 ---
 
