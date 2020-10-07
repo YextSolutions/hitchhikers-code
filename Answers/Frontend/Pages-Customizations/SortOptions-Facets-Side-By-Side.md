@@ -2,6 +2,9 @@
 name: SortOptions and Facets Side-by-Side
 description: Adjusting filters wrapper so sortoptions and facets appear next to each other rather than stacked
 keywords: SortOption, Sorting, Filter, Facet
+dateUpdated: 10/5/2020
+product: Answers
+categories: Frontend, Pages Customizations
 ---
 SortOptions, Facets and Filters appear stacked by default in the vertical page:
 ![image|510x296](upload://b4dENhlz9NKSGsytIPNTMRXA6RQ.png)    

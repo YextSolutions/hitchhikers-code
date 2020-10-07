@@ -3,7 +3,8 @@ name: Format Boolean Value to Display on Card
 description: Display text based off the value of the boolean.
 keywords: Boolean, JS, Accepting New Patients, Custom Formatters
 dateUpdated: 10/5/2020
-
+product: Answers
+categories: Frontend, Custom Formatters
 ---
 In order to "transform" the boolean field, we recommend using custom (yet simple) JS formatter in your **formatters.js** file. In order to add this formatter, you'll want to go to **Jambo Commands** -> **Override Theme** -> **static > js > formatters.js**.
 

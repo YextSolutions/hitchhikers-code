@@ -2,6 +2,10 @@
 name: Targetting specific CTAs using CSS
 keywords: CTA, CSS, target, vertical
 dateUpdated: 10/6/2020
+imageURL: 
+communityLinks: 
+product: Answers
+categories: Frontend, Card Customizations
 ---
 You can use the parent/child relationships in the HTML of the cards to help target specific CTA classes, so you can modify CTAs in different verticals.
 

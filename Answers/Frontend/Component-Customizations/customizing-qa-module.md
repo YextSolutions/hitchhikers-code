@@ -2,8 +2,11 @@
 name: Overriding the Q&A Component for Analytics Tracking on Links
 description: 
 keywords: Custom Partials, Q&A Component, Custom Analytics
-thumbnailImageURL: 
+imageURL: 
 dateUpdated: 10/1/2020
+communityLinks: 
+product: Answers
+categories: Frontend, Component Customizations
 ---
 
 ## Introduction

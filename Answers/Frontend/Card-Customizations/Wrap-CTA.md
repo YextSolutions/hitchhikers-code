@@ -2,8 +2,11 @@
 name: Wrap CTA
 description: Wrap a long CTA for a specific vertical.
 keywords: CTA, Wrap, vertical
-dateUpdated: 10/5/2020
-
+dateUpdated: 10/6/2020
+imageURL: 
+communityLinks: 
+product: Answers
+categories: Frontend, Card Customizations
 ---
 
 There are situations where you might want to wrap CTAs for a specific vertical if they are particularly long. This could be both from UI perspective but also to create cleaner experiences on mobile.

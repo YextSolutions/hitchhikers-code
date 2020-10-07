@@ -3,6 +3,9 @@ name: Conditional Formatting on CTA Icons
 description: Change the icon that displays on CTA buttons conditionally based on the contents of their corresponding CTA labels. For example, if the label contains a substring “read”, then the icon will format magnifying_glass. If the label contains a substring “call”, then format a phone icon.
 keywords: Call to Action, CTA, Conditional Format, Custom Formatters, CTA Icons, CTA Labels
 dateUpdated: 09/24/2020
+communityLinks: 
+product: Answers
+categories: Frontend, Custom Formatters
 
 ---
 1. Add the below function to your static/js/formatters.js file

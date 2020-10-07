@@ -2,8 +2,10 @@
 name: Formatter for Adding a Bulleted List of Linked Entity Names
 description: If you’re wanting to add a list of the names in an entity list field (for example, a list of Linked Ingredients on a Recipe card), you’ll need to use a formatter to extract an array of names from the linked entity objects. Follow the instructions below!
 keywords: List of Linked Entities, Bulleted List, Linked Entities
-communityLink: https://hitchhikers.yext.com/community/t/formatter-for-adding-a-bulleted-list-of-linked-entity-names/649
+communityLinks: https://hitchhikers.yext.com/community/t/formatter-for-adding-a-bulleted-list-of-linked-entity-names/649
 dateUpdated: 06/08/2020
+product: Answers
+categories: Frontend, Custom Formatters
 ---
 If you’re wanting to add a list of the names in an entity list field (for example, a list of Linked Ingredients on a Recipe card), you’ll need to use a formatter to extract an array of names from the linked entity objects. Follow the instructions below!
 

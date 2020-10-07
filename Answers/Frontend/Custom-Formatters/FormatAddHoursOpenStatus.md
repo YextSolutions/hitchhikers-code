@@ -4,7 +4,8 @@ description: Formatter to display a custom field of type hours to a card with op
 keywords: Hours, Open, Open Status, Custom Formatters
 communityLink: https://hitchhikers.yext.com/community/t/add-drive-thru-hours-open-status-to-card/1667
 dateUpdated: 09/15/2020
-
+product: Answers
+categories: Frontend, Custom Formatters
 ---
 1. Override the Theme (formatter.js File)
 We need to override the theme here so we can pass a “field” parameter to the hours formatter. This will allow us to pass Drive thru hours in addition to main hours.

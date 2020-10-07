@@ -3,6 +3,8 @@ name: Embed static answers experience
 description: Embed a static answers experience based on a query as website content.
 keywords: Embed, stand-alone, seperate
 dateUpdated: 10/5/2020
+product: Answers
+categories: Frontend, Pages Customizations
 ---
 
 1. **Create a second Answers Frontend Experience**. Because we need to add some additional customizations that are not desired for the main search, we'll need a separate frontend experience. This however can leverage the same Answers *backend* if you so choose.

@@ -2,6 +2,11 @@
 name: Query rules - string of numbers
 description: Surfacing a specific FAQ when a string of numbers is searched.
 keywords: Query rules, string, regex
+imageURL: 
+dateUpdated: 10/6/2020
+communityLinks:
+product: Answers
+categories: Backend, Query Rules
 ---
 
 When implementing query ruels there may be scenarios where you would like to taregt a **type* of query. You can find the full list of Query Rules criteria here (https://hitchhikers.yext.com/tracks/answers-advanced/ans302-query-rules/02-criteria/). You can target a 5-7 number string via RegEx (Regular expressions). Regular expressions allow you to search for a pattern of characters, and allows more flexibility when you’re looking for query matches.

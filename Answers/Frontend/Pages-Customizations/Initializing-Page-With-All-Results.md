@@ -2,6 +2,9 @@
 name: Initializing Answers Vertical Page With All Results
 description: All results appear on a page when there is an empty vertical search
 keywords: all results, blank search
+dateUpdated: 10/5/2020
+product: Answers
+categories: Frontend, Pages Customizations
 ---
 
 

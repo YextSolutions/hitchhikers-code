@@ -3,6 +3,8 @@ name: Facet Styling Customization
 description: Editing and styling various components of vertical facets
 keywords: facet, filter, color, label, border
 dateUpdated: 10/5/2020
+product: Answers
+categories: Frontend, Pages Customizations
 ---
 
 You’ll need to be on version 1.4 or above for this to work. For the filter buttons and filter button color, see some sample CSS below:
