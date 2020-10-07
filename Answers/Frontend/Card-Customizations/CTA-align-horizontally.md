@@ -2,8 +2,6 @@
 name: Align CTAs Horizontally
 keywords: CTA, align, horizontal
 dateUpdated: 10/6/2020
-imageURL: 
-communityLinks:
 product: Answers
 categories: Frontend, Card Customizations
 

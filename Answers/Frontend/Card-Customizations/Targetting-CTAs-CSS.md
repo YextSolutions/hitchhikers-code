@@ -2,8 +2,6 @@
 name: Targetting specific CTAs using CSS
 keywords: CTA, CSS, target, vertical
 dateUpdated: 10/6/2020
-imageURL: 
-communityLinks: 
 product: Answers
 categories: Frontend, Card Customizations
 ---

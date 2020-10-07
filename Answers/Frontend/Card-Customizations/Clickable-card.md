@@ -3,6 +3,8 @@ name: Creating a clickable card
 description: Format a card so the entirety of it is clickable.
 keywords: Card, clickable, click
 dateUpdated: 10/5/2020
+product: Answers
+categories: Frontend, Card Customizations
 
 ---
 

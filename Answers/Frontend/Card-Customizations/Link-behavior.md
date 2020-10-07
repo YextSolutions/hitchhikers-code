@@ -3,8 +3,6 @@ name: Link behavior
 description: Changing link target Behavior for a specific entity.
 keywords: Link, top, blank
 dateUpdated: 10/5/2020
-imageURL: 
-communityLinks: 
 product: Answers
 categories: Frontend, Card Customizations
 

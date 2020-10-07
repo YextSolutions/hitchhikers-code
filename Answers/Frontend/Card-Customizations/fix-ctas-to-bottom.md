@@ -3,8 +3,7 @@ name: Fix CTAs to Bottom of Card
 description: How to ensure the CTAs appear at the bottom of the product-prominentimage card.
 keywords: Product-ProminentImage, HBS, CSS
 dateUpdated: 10/5/2020
-imageURL: 
-communityLinks:
+communityLinks: https://hitchhikers.yext.com/community/t/looking-for-css-help-on-universalstandard-cards-fixing-ctas-to-bottom-of-card/1701/2
 product: Answers
 categories: Frontend, Card Customizations
 

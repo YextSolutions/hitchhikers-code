@@ -4,7 +4,6 @@ description:
 keywords: Custom Partials, Map Pins, Mapbox
 imageURL: https://github.com/amanifarooque/hitchhikers-code/blob/master/Images/Custom-Map-Pins.png
 dateUpdated: 10/5/2020
-communityLinks: 
 product: Answers
 categories: Frontend, Component Customizations
 ---

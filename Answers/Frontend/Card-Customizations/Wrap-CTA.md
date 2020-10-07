@@ -2,9 +2,7 @@
 name: Wrap CTA
 description: Wrap a long CTA for a specific vertical.
 keywords: CTA, Wrap, vertical
-dateUpdated: 10/6/2020
-imageURL: 
-communityLinks: 
+dateUpdated: 10/6/2020 
 product: Answers
 categories: Frontend, Card Customizations
 ---
