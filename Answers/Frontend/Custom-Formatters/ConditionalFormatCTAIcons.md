@@ -36,6 +36,6 @@ Specifically for the listItems field ensure, it looks like the following:
   </ul>
 The end result will look like the below:
 
-See below for final result:
+View the image below for final result:
 
 ![image|690x225](https://aws1.discourse-cdn.com/turtlehead/optimized/1X/cbeb9bae4d34329455a2e64f7ebcd9255c224fa4_2_1380x450.png) 
