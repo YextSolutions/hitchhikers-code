@@ -23,7 +23,7 @@ Additionally, you may need to add additional CSS to adjust the size of the image
 
 The result will look like this:
 
-![image|690x371](/Images/background-image-as-background.png) 
+![image|690x371](../../../Images/background-image-as-background.png) 
 
 
 
