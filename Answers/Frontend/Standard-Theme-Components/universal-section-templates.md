@@ -1,10 +1,10 @@
 ---
 name: Universal Section Templates
-description: 
-keywords: 
+description: Options for universal section templates in the Theme.
+keywords: grid-two-columns, grid-three-columns
 dateUpdated: 10/5/2020
 product: Answers
-categories: 
+categories: Standard Theme Layouts
 ---
 
 ## Universal Grid - Two Columns

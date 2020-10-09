@@ -1,10 +1,10 @@
 ---
 name: Card Layouts
-description: 
-keywords: 
+description: Overview of card options available in the theme.
+keywords: standard, professional-standard, professional-location, product-standard, product-prominentimage, menuitem-standard, location-standard, job-standard, faq-accordion, event-standard, link-standard
 dateUpdated: 10/5/2020
 product: Answers
-categories: 
+categories: Standard Theme Components
 ---
 ## standard
 ![image](../../../Images/Built-in-cards/Standard-card.png) 
