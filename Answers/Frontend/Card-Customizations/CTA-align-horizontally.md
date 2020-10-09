@@ -13,7 +13,7 @@ The below code will allow you to align two CTAs horizontally on a card.
 .HitchhikerFaqAccordion-ctasWrapper {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 ```
 
