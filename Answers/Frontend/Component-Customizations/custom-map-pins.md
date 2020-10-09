@@ -169,4 +169,4 @@ Add this to your answers.scss file.
 ```
 Once complete, your vertical will look like the below!
 
-![image|690x225](/Images/Custom-Map-Pins.png) 
+![image|690x225](../../../Images/Custom-Map-Pins.png) 

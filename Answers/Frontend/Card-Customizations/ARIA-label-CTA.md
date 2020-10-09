@@ -6,33 +6,23 @@ dateUpdated: 10/8/2020
 product: Answers
 categories: Frontend, Card Customizations
 ---
-You can add aria-labels to your CTAs in Jambo by updating the handlebars.
 
-First fork the card and in the component.hbs file, update the HTML to include the aria-label attribute on the CTA (see below):
-
-```hbs
-<a class="HitchhikerCTA js-HitchhikerCTA{{#if modifiers}} {{modifiers}}{{/if}}" href="{{url}}"
-    data-eventtype="{{eventType}}" data-eventoptions='{{json eventOptions}}'
-    target="{{#if target}}{{target}}{{else}}_top{{/if}}"
-    aria-label="{{ariaLabel}}">
-```
+## Overview
+Aria labels are helpful components added for accessibility so that screen readers can understand the page content. You can add aria-labels to your CTAs in Jambo by commenting in the `ariaLabel` attribute in your forked card's component.js file. 
 
 More information on how to use aria-labels are outlined in [W3C’s guidelines 1](https://www.w3.org/WAI/GL/wiki/Using_aria-label_for_link_purpose).
 
-In the component.js file for the card, add the ariaLabel in your CTAs under dataForRender and set it to the appropriate text / field, for example:
+## Instructions
+First, fork the card. In the component.js file for the card, comment in the ariaLabel in your CTAs under dataForRender and set it to the appropriate text / field, for example:
 
 ```js
-CTA1: {
-   label: "My CTA Label", 
-   iconName: 'chevron', 
-   url: "#",
-   target: '_top', 
-   eventType: 'CTA_CLICK', 
-   eventOptions: this.addDefaultEventOptions(),
-   ariaLabel: "Learn more about this product" //newly added label, can pull from the profile or be hardcoded 
-},
+    CTA1: {
+    label: 'RSVP', // The CTA's label
+    iconName: 'calendar', // The icon to use for the CTA
+    url: profile.ticketUrl || profile.website, // The URL a user will be directed to when clicking
+    target: '_top', // Where the new URL will be opened
+    eventType: 'RSVP', // Type of Analytics event fired when clicking the CTA
+    eventOptions: this.addDefaultEventOptions(),
+    ariaLabel: 'Learn more about this product', // Accessible text providing a descriptive label for the CTA
+    },
 ```
-
-This ariaLabel in dataForRender will be passed into the handlebars template for the card that you edited in step 2.
-
-Generally this attribute makes sense to build in by default, I’ll make a request to do so (so you won’t need to edit the component.hbs file to configure the label).

@@ -8,9 +8,11 @@ categories: Frontend, Card Customizations
 
 ---
 
-Hi Jessie,
+## Overview
+This example walks you through adding an email field to a forked card.
 
-Great question! In order to do this the right way, we'll need to do three things:
+## Instructions
+In order to do this the right way, we'll need to do three things:
 1. Update the custom card's `component.js` to pass through the Email field, as well as the details needed to successfully fire an Analytics event.
 2. Update the custom card's `template.hbs` to add a section for Email that correctly formats the link.
 3. *Optional* - add CSS to update the link styling
@@ -29,7 +31,7 @@ Now comes **Step 2**, updating our template. Once this data is accessible to our
 Assuming you're using the professional-standard or location-standard card as a starting point, this process will be pretty similar to how the address and phone are added to the card.
 
 First, we'll create an ``{{>email}}`` partial. Add the below within your template.hbs file, preferably below the `{{#*inline 'phone'}}` partial.
-```
+```hbs
 {{#*inline 'email'}}
 {{#if card.email}}
 <div class="HitchhikerLocationStandard-email">
@@ -79,5 +81,3 @@ Lastly, for **Step 3**, I'll add a bit of CSS to make the email address appear a
 ```
 The end result will look like the below:
 ![image|690x176](https://aws1.discourse-cdn.com/turtlehead/original/2X/4/4c72126b499dfa991358928dae9798f8bb0f7497.png)  
-
-Let me know if this helps!

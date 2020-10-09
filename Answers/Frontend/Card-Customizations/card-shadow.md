@@ -18,5 +18,7 @@ To add a bit of pop to your cards in the form of a drop shadow you can use the b
     }
   }
 ```
+![image](../../../Images/hover-animation-cards.gif) 
 
 You can learn more about how to use box shadows [here](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+

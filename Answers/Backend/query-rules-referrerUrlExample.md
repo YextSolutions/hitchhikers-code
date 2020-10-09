@@ -8,11 +8,12 @@ product: Answers
 categories: Backend, Query Rules
 ---
 
-**Overview:** To filter results to only those that pertain to the online location (ie. website) a user originates from, Query Rules detects the URL a user searched from, maps it to a value of the custom field “Query Rules Location”, and filters the result set to only the entities that have that value populated in the custom field.
+## Overview 
+To filter results to only those that pertain to the online location (ie. website) a user originates from, Query Rules can be use to detect the URL a user searched from, map it to a value of the custom field “Query Rules Location”, and filter the result set to only the entities that have that value populated in the custom field.
 
 For example, take someone searching from a page on https://location1.com/. We will see that a user searched from a page matching this subdomain, map that to the custom field value of “Location 1”, and filter the results such that only results with the field “Query Rules Location” containing “Location 1” appear in the results.
 
-**Instructions**
+## Instructions
 
 *For this example*, the 3 entity types are Locations, FAQs, and Services.
 

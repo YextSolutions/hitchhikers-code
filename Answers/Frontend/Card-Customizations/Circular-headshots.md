@@ -5,48 +5,46 @@ dateUpdated: 10/7/2020
 product: Answers
 categories: Frontend, Card Customizations
 ---
-The best way to accomplish this is to set the headshots as the background-image of it’s container. To do this, you will need to fork the professional-standard or professional-location card.
 
-First, we’ll update the handlebars template to make the image a background image instead of placing the image directly on the page.
+## Overview
+For cards with images, you may want to format images to be a consistent shape; for example, making them all consistently circular. While the best way to do so is to edit your original images themselves, you can do this via CSS.
 
-**template.hbs**
+## Background
+The best way to accomplish this is to do so via the `object-fit` properties. Learn more about this property here: https://www.w3schools.com/css/css3_object-fit.asp.
 
-```hbs
-{{#*inline 'image'}}
-{{#if card.image}}
-<div class="HitchhikerLocationStandard-imgWrapper">
-  <img class="HitchhikerLocationStandard-img" src="{{card.image}}" alt="{{#if card.altText}}{{card.altText}}{{/if}}" />
-</div>
-{{/if}}
-{{/inline}}
-```
-
-Then, we’ll add CSS to make the headshots circular.
+The below CSS would make the images circular, focusing on the center of the image, with a standard size.
 
 ```css
-  .HitchhikerLocationStandard-imgWrapper
-  {
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    width: 6.25rem;
-    height: 6.25rem;
+.HitchhikerProductProminentImage-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-  }
+    padding: 1rem;
+}
   ```
+![image](../../../Images/circular-images-cards.png) 
 
-This should produce the desired effect. Beware that the cropping won’t be foolproof.
+Beware that the cropping won’t be foolproof.
 
 If you would like to differentiate certain properties for the Desktop and Mobile experiences you can use [media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).
 
 *Sample code using this techique below*
 
 ```css
-@media only screen and (max-width: 768px) {
-.HitchhikerLocationStandard-imgWrapper {
-width: 7.25rem;
-height: 5rem;
-margin-right: 2rem;
-}
+.HitchhikerProductProminentImage-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    padding: 1rem;
+
+    @media only screen and (max-width: 768px) {
+      border-radius: 0px;
+      padding: 0px;
+    }
 }
 ```
+![image](../../../Images/circular-images-mobile.png) 

@@ -9,7 +9,7 @@ product: Answers
 categories: Backend, Query Rules
 ---
 
-When implementing query ruels there may be scenarios where you would like to taregt a **type* of query. You can find the full list of Query Rules criteria here (https://hitchhikers.yext.com/tracks/answers-advanced/ans302-query-rules/02-criteria/). You can target a 5-7 number string via RegEx (Regular expressions). Regular expressions allow you to search for a pattern of characters, and allows more flexibility when you’re looking for query matches.
+When implementing query rules there may be scenarios where you would like to taregt a *type* of query. You can find the full list of Query Rules criteria here (https://hitchhikers.yext.com/tracks/answers-advanced/ans302-query-rules/02-criteria/). You can target a 5-7 number string via RegEx (Regular expressions). Regular expressions allow you to search for a pattern of characters, and allows more flexibility when you’re looking for query matches.
 
 Without getting into the weeds, the below query rule will work to boost any specified FAQs when a 5 to 7 digit number is searched.
 
@@ -31,4 +31,4 @@ Without getting into the weeds, the below query rule will work to boost any spec
 }
 ```
 
-For anyone looking to learn more about RegEx or validate their expressions I highly recommend visiting https://regexone.com/and https://regex101.com/ respectively.
+For anyone looking to learn more about RegEx or validate their expressions I highly recommend visiting https://regexone.com/ and https://regex101.com/ respectively.

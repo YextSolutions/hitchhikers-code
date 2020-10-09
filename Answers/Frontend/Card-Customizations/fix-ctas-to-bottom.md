@@ -32,3 +32,18 @@ This accomplishes the following:
 
 * Specifies the `.HitchhikerProductProminentImage-body` class to use `flex` and take up the full height of the card available after the image
 * Allows the `.HitchhikerProductProminentImage-contentWrapper` class to take up the full height of the container, and specifies the spacing between the description & the CTAs to be `space-between`, forcing the CTAs to the end of the card.
+![image|712x477](../../../Images/fix-ctas-to-bottom.png)
+
+If you don't have a description, the following CSS may help you as well:
+
+```scss
+.HitchhikerProductProminentImage-ctasWrapper {
+    margin-top: auto;
+}
+```
+
+This will automatically set the top margin to fix the CTAs container to the bottom of the card. 
+
+As always, make sure you test this across cards with different data variability and across browsers/devices.
+
+

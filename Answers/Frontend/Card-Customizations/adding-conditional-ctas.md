@@ -6,10 +6,12 @@ dateUpdated: 10/5/2020
 product: Answers
 categories: Frontend, Card Customizations
 ---
-You may only want the “Book Appointment” CTA to show up on provider cards when that provider is accepting new patients which is a field populated in the KG. ie. If acceptingNewPatients=true --> display tertiary CTA.
+## Overview
+Take a scenario where you only want the “Book Appointment” CTA to show up on provider cards when that provider is accepting new patients, a field stored in the Knowledge Graph. Essentially, if  `acceptingNewPatients`=`true`, then display tertiary CTA.
 
 This could bypass adding/removing information from the KG as doctors’ statuses change, so all you would have to do to would be toggle “Accepting New Patients” for the CTA to surface in Answers.
 
+## Instructions
 You can easily do this by adding a boolean to your component.js file, and modifying the handlebars template to *only* show the third CTA if that boolean evaluates to true.
 
 **component.js**
@@ -35,7 +37,7 @@ CTA3: { // The tertiary call to action for the card
 The next step is to use this boolean to only show the tertiary CTA when `acceptingNewPatients` = true.
 
 We can do this using an `if` statement in handlebars. We'll check if card.acceptingNewPatients evaluates to true; if so, we'll add the tertiary CTA. You can see the modifications to the CTA partial below:
-```
+```hbs
 {{#*inline 'ctas'}}
 {{#if (any (all card.CTA1 card.CTA1.url) (all card.CTA2 card.CTA2.url)(all card.CTA3 card.CTA3.url))}}
 <div class="HitchhikerLocationStandard-ctasWrapper">
@@ -49,4 +51,4 @@ We can do this using an `if` statement in handlebars. We'll check if card.accept
 {{/inline}}
 ```
 
-This will hide the CTA if acceptingNewPatients is not populated or false, and show it if it's true. Let us know if this works!
+This will hide the CTA if acceptingNewPatients is not populated or false, and show it if it's true.
