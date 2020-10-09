@@ -1,7 +1,8 @@
 ---
 name: Adding Google Fonts to Page Builder
 description: Importing google fonts and applying them to pages
-keywords: fonts, custom, css
+keywords: fonts, custom, css, page builder
+product: Pages
 dateUpdated: 10/6/2020
 ---
 
