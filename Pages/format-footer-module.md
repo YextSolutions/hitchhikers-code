@@ -1,13 +1,12 @@
 ---
 name: Formatting the Footer Module
-description: Example of footer CSS
+description: Editing footer CSS to stack and adjust the position of links and icons
 keywords: Page Builder, Flex
+product: Pages
 dateUpdated: 10/5/2020
 ---
 
-Hi Ella!
-
-Great question. There seems to be two components that you want to change here - 1) adjust position properties for the Footer links to move them to right hand side and 2) adjust the social icons to also be on the left and stacked above the links.
+For this example, there are two components we want to change here - 1) adjust position properties for the Footer links to move them to right hand side and 2) adjust the social icons to also be on the right and stacked above the links.
 
 For both of these, we can leverage the power of FlexBox. You can read more about FlexBox here (https://css-tricks.com/snippets/css/a-guide-to-flexbox/), but we'll review the basics you'll need to accomplish this layout.
 
