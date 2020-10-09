@@ -4,7 +4,7 @@ description: Overview of the page layouts available in the theme.
 keywords: vertical-standard, vertical-grid, vertical-map
 dateUpdated: 10/5/2020
 product: Answers
-categories: Standard Theme Components
+categories: Standard Theme Layouts
 ---
 ## Vertical Standard
 ![image](../../../Images/PagesTemplates/VerticalStandard.png) 
