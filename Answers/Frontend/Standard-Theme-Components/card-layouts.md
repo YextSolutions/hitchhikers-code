@@ -22,7 +22,7 @@ categories: Standard Theme Layouts
 ![image](../../../Images/Built-in-cards/Product-prominent-card.png) 
 
 ## menuitem-standard
-![image](../../../Images/Built-in-cards/Menuitem-standard card.png) 
+![image](../../../Images/Built-in-cards/Menuitem-standard-card.png) 
 
 ## location-standard
 ![image](../../../Images/Built-in-cards/location-standard-card.png) 
