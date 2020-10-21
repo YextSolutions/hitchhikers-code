@@ -23,7 +23,7 @@ If you remember, we can only expose data that's returned to us in the API respon
 
 ## Instructions
 
-## Building Your Category Mappings
+### Building Your Category Mappings
 You can find the Category ID to Name mappings in your Accounts Settings tab, under `Content and Templates > Category Lists`, or at https://www.yext.com/s/{yourBusinessId}/account/categoryLists.
 
 Once you navigate here, you can download an Excel workbook with the ID to Name Mappings. 
