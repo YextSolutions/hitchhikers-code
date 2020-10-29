@@ -4,6 +4,7 @@ keywords: Gradients, CTA, CTAs, colors, border, borders, color
 dateUpdated: 10/29/2020
 product: Answers
 categories: Frontend, Card Customizations
+thumbnail: https://aws1.discourse-cdn.com/turtlehead/original/2X/e/e5f2b35d39fad83cafe237f1692506e619301997.png
 ---
 ## Overview
 

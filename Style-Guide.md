@@ -4,6 +4,8 @@ keywords: [[keyword, keyword2]]
 dateUpdated: [[date]]
 product: [[Answers]]
 categories: [[See list]]
+communityLinks: [[link]]
+thumbnail: [[link]]
 ---
 
 ## Overview

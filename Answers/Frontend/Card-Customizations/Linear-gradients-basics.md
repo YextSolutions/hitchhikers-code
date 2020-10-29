@@ -5,6 +5,7 @@ keywords: gradients, customization, color
 dateUpdated: 10/29/2020
 product: Answers
 categories: Frontend, Card Customizations
+thumbnail: https://aws1.discourse-cdn.com/turtlehead/original/2X/d/d2c20d31958cf623580ca2fca9578a53e4bceb1c.png
 ---
 # Overview
 You can use linear gradients to format various aspects of your answers experience –CTAs, Answers Background, Results Title Bar, and Results Card to name a few—within the answers.scss file by editing the background-image. There are several types of gradients that can be used based on direction. Here are some examples of both gradient types and objects you can apply them to:
