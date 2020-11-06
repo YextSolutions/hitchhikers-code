@@ -10,9 +10,11 @@ imageURL:
 
 ## Overview
 
-[[A preambe to the code and where it might be used.]]
+An overview is required for each code example, to both explain the potential use case for the code as well as describe how the code functions at a high-level. Try to keep it to a few sentences if possible. The goal of this resource isn't for Hitchhikers to simply copy and paste, but to understand the function of the code they are using.
 
 ## The Code
+
+Here you can input the relavent code. Be mindful not to include extraneous facets or lines.
 
 ```css
 .HitchhikerCTA {
@@ -22,18 +24,19 @@ imageURL:
     background-size: 200% 100%;
 }
 ```
-
-[[Describe what this code achieves]]
+Here you can re-iterate what the code achieves.
 
 ## The Result
 
+Here you can include a picture or gif (preferred) of the final result! URLs tend to work best.
+
 ![image](https://aws1.discourse-cdn.com/turtlehead/original/2X/d/d73d52daa2844f8ce1dcf8e31cc98015c4606f86.gif)
 
-[[Optional: any caveats or important notes to the code and/or result]]
+Optional: include any caveats or important notes to keep in mind when implementing the code
 
 ## Additional Resources
 
-[[TBD]]
+In-text hyperlink out to any additional related resources that one might want to reference when implementing yoru code.
 
 # General Notes
 
