@@ -1,11 +1,11 @@
 ---
-name: [[name]]
-keywords: [[keyword, keyword2]]
-dateUpdated: [[date]]
-product: [[Answers]]
-categories: [[See list]]
-communityLinks: [[link]]
-thumbnail: [[link]]
+name: Style Guide for HH Code Bank
+keywords: internal
+dateUpdated: 11/2/2020
+product: Answers
+categories: 
+communityLinks:
+imageURL:
 ---
 
 ## Overview
@@ -54,3 +54,12 @@ thumbnail: [[link]]
    - Searchable Fields
    - Query Rules
 
+```md
+name: [[name]]
+keywords: [[keyword, keyword2]]
+dateUpdated: [[date]]
+product: [[Answers]]
+categories: [[See list]]
+communityLinks: [[link]]
+imageURL: [[link]]
+```
