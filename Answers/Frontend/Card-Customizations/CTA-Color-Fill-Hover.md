@@ -4,7 +4,7 @@ keywords: CTA, CTAs, color, colors, hover, fill
 dateUpdated: 10/29/2020
 product: Answers
 categories: Frontend, Card Customizations
-thumbnail: https://aws1.discourse-cdn.com/turtlehead/original/2X/d/d73d52daa2844f8ce1dcf8e31cc98015c4606f86.gif
+imageURL: https://aws1.discourse-cdn.com/turtlehead/original/2X/d/d73d52daa2844f8ce1dcf8e31cc98015c4606f86.gif
 ---
 
 CTAs can be styled using css to fill with color from left to right (or right to left) using the following:
