@@ -55,4 +55,4 @@ const locale = "en";
 
 ### **The Result:**
 
-![image](https://aws1.discourse-cdn.com/turtlehead/original/2X/4/4bcbd52a475fd7dcef319864790759f5af47f855.gif) 
+![image](https://aws1.discourse-cdn.com/turtlehead/original/2X/1/18f23c6a886fde9fe78b7075632cca5173d6a7fe.gif)
