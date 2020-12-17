@@ -44,6 +44,7 @@ In-text hyperlink out to any additional related resources that one might want to
 * ALWAYS include a new line before and after all headers and sections
 * Use italics or bold when highlighting a caveat
 * Feel free to copy this file to create new examples
+* To reference an internal image use this file path ![image](../../../Images/[[name]].png)
 
 
 # Categories:
