@@ -25,8 +25,7 @@ Oftentimes a promotion vertical can be used to highlight content based on certai
 2. Add Promotion entities to the account
 
 3. Add Promotion vertical to Search Config, call it “promotion”.
-  * textSearch name
-  * textSearch any relevant Answers Keywords
+  * phraseMatch any relevant Answers Keywords - this will trigger the result only if the keyword, or "phrase", is contained in the query
   * baseScore: 100
 
 In your Pages code, add the following to your index.json file:
