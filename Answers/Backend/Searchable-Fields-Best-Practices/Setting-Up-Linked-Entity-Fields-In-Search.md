@@ -10,11 +10,11 @@ categories: Backend, Searchable Fields
 For certain entity relationships, it might be useful to be able to search by linked entity names. For example, if you have a Recipe entity with linked Ingredients, you might want to search by a linked Ingredient to surface Recipes using it. See below for how to implement.
 
 ## Instructions
-To make linked entities searchable, you can use the name subfield of the custom linked entity fields that you created. As an example, if the custom field you want to be searchable for providers is `c_linkedSpecialties` then you will need to add the following to `Answers > Experiences > Search Configuration`:
+To make linked entities searchable, you can use the name subfield of the custom linked entity fields that you created. As an example, if the custom field you want to be searchable for providers is `c_linkedProcedures` then you will need to add the following to `Answers > Experiences > Search Configuration`:
 
 ```
       "searchableFields": {
-        "c_linkedSpecialties.name": {
+        "c_linkedProcedures.name": {
           "textSearch": true
         },
 ```
