@@ -6,7 +6,7 @@ keywords: Main Site, Code Examples
 
 ## Welcome
 
-Welcome to the Hitchhikers Code Bank! Use this as a resource to easily search code examples shared by your fellow Hitchhikers. Search the repository here: https://hh-code-repository.sbx.pagescdn.com/!
+Welcome to the Hitchhikers Code Bank! Use this as a resource to easily search code examples shared by your fellow Hitchhikers. Search the repository here: https://hitchhikers.yext.com/resources/code-examples/!
 
 ## Style Guide
 Each resource in this repository should conform to the following style rules:
