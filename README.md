@@ -22,7 +22,7 @@ name: Short & Descriptive Name for the Resource
 description: (Optional) Context around the resource and why it may be helpful
 keywords: (Optional) Keywords that will help surface the resource in search.
 imageURL: (Optional) Link to the Image URL that we can feature as a thumbnail image.
-dateUpdated: 10/1/2020
+dateUpdated: 4/1/2021
 communityLinks: (Optional) List of links (comma-separated) to the community where this might be reference or additional context may be found.
 product: The product this pertains to (ie. Answers or Pages)
 categories: The categories this falls into - choose from this list: Frontend, Card Customizations, Custom Formatters, Pages Customizations, Backend, Standard Theme Layouts, Component Customizations, Pages, Query Rules, Searchable Fields. Categories will be added as we have more examples.
@@ -38,8 +38,4 @@ Include an **Introduction** section to explain to a user why this resource may b
 Afterwards, include an **Instructions** section to walk a user through the steps to implement. This should leverage code blocks and images where helpful to give a user a clear understanding of what they should do and most importantly, *why*.
 
 ## Contributing to the Code Bank
-Want to contribute to the code bank? We're refining our process for doing so, but for now, continue to post your examples on the community and we will port these over! For any questions on existing resources or how to add new ones, please reach out to the HH Code Bank team via Slack:
-* Johnathon Cherry
-* Henry Kremer
-* Micaela Luders
-* Amani Farooque
+Want to contribute to the code bank? Please feel free to submit your ideas either in the [Hitchhikers Community](https://hitchhikers.yext.com/community/) or via our [Idea Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSevu-xe3O93U2Ddws_rF2g3metRzNMFSugcDKOsA_IA4t0eaw/viewform).
