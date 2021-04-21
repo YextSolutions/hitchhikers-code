@@ -1,11 +1,11 @@
 ---
 name: Universal Section Templates
 description: Options for universal section templates in the Theme.
-keywords: grid-two-columns, grid-three-columns
-dateUpdated: 10/5/2020
+keywords: grid-two-columns, grid-three-columns, grid-four-columns
+dateUpdated: 4/21/2021
 product: Answers
 categories: Standard Theme Layouts
-communityLinks: https://hitchhikers.yext.com/community/t/introducing-universal-search-section-templates/1483
+communityLinks: https://hitchhikers.yext.com/community/t/introducing-universal-search-section-templates/1483 https://hitchhikers.yext.com/community/t/4-column-layout/2517
 ---
 
 In your config.json file you can specify which universal section template you would like under the *verticalsToConfig* object.
@@ -33,3 +33,7 @@ In your config.json file you can specify which universal section template you wo
 
 ![image](../../../Images/PagesTemplates/UniversalGrid3Column.png) 
 
+## Universal Grid - Four Columns
+```grid-four-columns``` (paired with the product-prominentimage card)
+
+![image](../../../Images/PagesTemplates/UniversalGrid4Column.png)
