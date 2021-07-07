@@ -9,7 +9,7 @@ categories: Frontend, Custom Formatters
 ---
 If you’re wanting to add a list of the names in an entity list field (for example, a list of Linked Ingredients on a Recipe card), you’ll need to use a formatter to extract an array of names from the linked entity objects. Follow the instructions below!
 
-1. Add the below function to your static/js/formatters.js file
+1. Add the below function to your static/js/formatters.js file. The syntax of the formatter will depend on the version of the theme you're on. Take a look at the formatters in the theme/static/js/formatters-internal.js file if you are unsure.
 ```js
   static listNames(entityList) {
     if(!entityList) {
@@ -20,6 +20,17 @@ If you’re wanting to add a list of the names in an entity list field (for exam
     return names;
   }
 }
+```
+Newer themes will use this format:
+```js
+  export function listNames(entityList) {
+    if(!entityList) {
+      return null;
+    }
+    let names = [];
+    entityList.forEach(element => names.push(element.name));
+    return names;
+  }
 ```
 
 2. Use the formatter in a ‘list’ section on your card.
