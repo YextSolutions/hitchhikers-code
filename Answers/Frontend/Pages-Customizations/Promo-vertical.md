@@ -28,7 +28,7 @@ Oftentimes a promotion vertical can be used to highlight content based on certai
   * phraseMatch any relevant Answers Keywords - this will trigger the result only if the keyword, or "phrase", is contained in the query
   * baseScore: 100
 
-In your Pages code, add the following to your index.json file:
+4. In your Pages code, add the following to your index.json file:
 Add the following to your VTC (vertical to config) object after “Universal”:
 ```
      "promotion": { // The vertical key from your search configuration
@@ -39,9 +39,9 @@ Add the following to your VTC (vertical to config) object after “Universal”:
     }
 ```
 
-4. Create (fork) a promo card, styled however you want. Call it promo-card per above “cardType” configuration.
+5. Create (fork) a promo card, styled however you want. Call it promo-card per above “cardType” configuration.
 
-5. In answers.scss, hide the navigation bar and view all section for this “vertical”
+6. In answers.scss, hide the navigation bar and view all section for this “vertical”
 
 ```css
 .HitchhikerResultsStandard--promotion
