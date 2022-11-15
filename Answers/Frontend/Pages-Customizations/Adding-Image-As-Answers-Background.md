@@ -1,5 +1,3 @@
-# Update
-This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
 ---
 name: Adding an Image as Answers background
 description: Answers background to be an image rather than a solid color.
@@ -9,6 +7,9 @@ product: Answers
 categories: Frontend, Pages Customizations
 dateUpdated: 10/8/2020
 ---
+
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
 
 You can use the `background-image` property to set a background image, using code such as the below. Make sure to place this outside of the `.Answers{}` class in the `answers.scss` file.
 
