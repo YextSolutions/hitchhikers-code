@@ -4,9 +4,8 @@ description: Stores code for hitchhikers to use and collaborate on.
 keywords: Main Site, Code Examples
 ---
 
-## Welcome
-
-Welcome to the Hitchhikers Code Bank! Use this as a resource to easily search code examples shared by your fellow Hitchhikers. Search the repository here: https://hitchhikers.yext.com/resources/code-examples/
+# UPDATE
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
 
 ## Style Guide
 Each resource in this repository should conform to the following style rules:
