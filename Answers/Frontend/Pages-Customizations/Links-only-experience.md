@@ -8,6 +8,10 @@ communityLinks: https://docs.google.com/document/d/1aD8xD8kmNau3_1LUevW-xxkhvYq_
 imageURL: ../../../Images/links-only.png
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 ## Overview
 
 For clients who do not convert to a paid experience, the account admin will receive a support ticket notifying of the trial expiration and requesting that the free trial be suspended and moved to a links-only experience. This is so that no KG results appear in search but Yext can continue to track their analytics which may be useful in a future sale. Instructions for how to do so are below. For clients who do not have a Links backend, respond on the ticket asking the action that should be taken.
