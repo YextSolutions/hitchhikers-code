@@ -8,6 +8,10 @@ communityLinks:
 imageURL: ../../../Images/Sinai-promo.png
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 ## Overview
 
 Oftentimes a promotion vertical can be used to highlight content based on certain queries. Both [Mount Sinai](../../../Images/Sinai-promo.png) and [Pizza Hut](../../../Images/PH-promo.png) are currenlty utilizing a promo vertical.
