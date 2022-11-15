@@ -7,6 +7,11 @@ product: Answers
 categories: Frontend, Pages Customizations
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
+
 1. **Create a second Answers Frontend Experience**. Because we need to add some additional customizations that are not desired for the main search, we'll need a separate frontend experience. This however can leverage the same Answers *backend* if you so choose.
 2. **Add a page for your FAQs**. Here, we'll do something a bit different - instead of creating a `universal-standard` page named `index`, create a `vertical-standard` page named index. From our training, you'll note that this page will now automatically appear at the root of your site. Configure the index.json to point to your FAQs vertical.
 3. **Add a default initial search**. Because you want certain FAQs to populate on landing, you can indicate a default search that should be run when someone lands on your page. This is only available for vertical pages.
