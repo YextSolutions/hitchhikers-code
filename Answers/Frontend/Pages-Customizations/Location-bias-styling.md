@@ -6,6 +6,10 @@ product: Answers
 categories: Frontend, Pages Customizations
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 To alter the styling of the location bias component that sits at the bottom of the results page, you can use the below sample css as a starting point.
 
 **Be sure to add this code OUTSIDE of the main Answers class**
