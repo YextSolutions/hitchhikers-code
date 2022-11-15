@@ -8,6 +8,10 @@ communityLinks:
 imageURL: ../../../Images/list-limit.png
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 ## Overview
 
 If you want to limit the length of a list of text (similar to the showMore functionality for descriptions on cards), then you can do so by looping over the list field that you want listed, checking the length of the whole list each time before adding a new item.
