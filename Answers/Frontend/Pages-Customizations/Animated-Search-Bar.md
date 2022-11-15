@@ -6,6 +6,11 @@ dateUpdated: 12/14/2020
 product: Answers
 categories: Frontend, Page Customizations
 ---
+
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 The default Answers search bar has a static text label, but you can modify the experience to make the search bar have a typing text animation that pulls from the [hardcoded prompts](https://hitchhikers.yext.com/modules/ans110-core-config-query-suggestions/02-hardcoded-prompts/) you have already set. Below are the steps you need to follow:
 
 1. Go to layouts > headerincludes.hbs and add the following:
