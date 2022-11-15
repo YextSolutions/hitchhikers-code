@@ -7,6 +7,10 @@ product: Answers
 categories: Frontend, Pages Customizations
 --- 
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 To have them appear next to each other, you can add a div that wraps the sorting and facets components in your 'providers.html.hbs' file and then format it with `display:flex` in the `answers.scss` file. For example I’ve called it Answers-searchOptions in the example below:
 
 **providers.html.hbs:**
