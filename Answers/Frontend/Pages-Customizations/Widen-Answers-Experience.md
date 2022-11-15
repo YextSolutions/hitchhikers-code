@@ -7,6 +7,11 @@ product: Answers
 categories: Frontend, Page Customizations
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
+
 You can widen the answers container using the variable `--hh-answers-container-width` in your answers-variables.scss file. This increases the width of both the search bar and the cards themselves.
 
 Just know that if you change it, you’ll need to test across browsers/devices to confirm functionality! The width of the cards aligns with best practices for easier readability of paragraph-like text - if it’s too wide, it becomes harder for a user to keep track of their place while reading.
