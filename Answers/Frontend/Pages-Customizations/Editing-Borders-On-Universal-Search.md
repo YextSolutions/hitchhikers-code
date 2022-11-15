@@ -7,6 +7,11 @@ product: Answers
 categories: Frontend, Page Customizations
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
+
 You can style the universal search results to have only top and bottom borders using the code below:
 
 ```css
