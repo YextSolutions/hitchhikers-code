@@ -35,6 +35,3 @@ We use Markdown to format the resources in this repository. For a full guide on 
 Include an **Introduction** section to explain to a user why this resource may be useful to them. The introduction can be used to describe different use cases, link to additional reading materials, and give a brief overview of the instructions.
 
 Afterwards, include an **Instructions** section to walk a user through the steps to implement. This should leverage code blocks and images where helpful to give a user a clear understanding of what they should do and most importantly, *why*.
-
-## Contributing to the Code Bank
-Want to contribute to the code bank? Please feel free to submit your ideas either in the [Hitchhikers Community](https://hitchhikers.yext.com/community/) or via our [Idea Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSevu-xe3O93U2Ddws_rF2g3metRzNMFSugcDKOsA_IA4t0eaw/viewform).
