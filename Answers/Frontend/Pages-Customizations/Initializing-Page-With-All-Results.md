@@ -7,6 +7,10 @@ product: Answers
 categories: Frontend, Pages Customizations
 ---
 
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 
 To display results on an empty vertical search, you’ll want to take two steps:
 
