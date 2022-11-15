@@ -5,6 +5,11 @@ dateUpdated: 10/29/2020
 product: Answers
 categories: Frontend, Page Customizations
 ---
+
+# Update
+This Hitchhikers Code Bank page is being deprecated as part of the Fall '22 Release on November 16th 2022. Please reference our new [Search documentation](https://hitchhikers.yext.com/docs/search) for this content and post in the community with any questions.
+
+---
 ## Overview
 
 This code snippet allows the user to update the icon in the right hand of the search bar from the standard Yext logo to a custom image in a JAMBO experience.
